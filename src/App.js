@@ -1,10 +1,11 @@
 import './App.css';
-import UsersList from './components/general-data';
+import Users from './components/GeneralData';
+import 'flowbite';
 
 function App() {
   return (
     <div className="App">
-      <UsersList></UsersList>
+      <Users></Users>
     </div>
   );
 }

@@ -1,33 +1,7 @@
-.card {
-    width: 300px;
-    height: 400px;
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 2px solid #456173;
-    color: aliceblue;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.profile-image {
-    border-radius: 5rem;
-    margin: 2rem 0;
-}
-
-.personal-information {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .name {
     color: #D99E32;
     margin: 0 0 1rem;
+    font-weight: bolder;
 }
 
 .location {
@@ -58,6 +32,7 @@ tr {
 td {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .email-contact {
@@ -68,5 +43,5 @@ td {
 }
 
 .icon {
-    height: 16px;
+    height: 50%;
 }
